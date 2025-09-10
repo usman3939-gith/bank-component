@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    /* font-family: "Lato", sans-serif; */
+}
+
+
+h4 {
+    font-weight: 600;
+    font-size: 1.76vw;
+    margin: 20px 0;
+
+}
+
+h5 {
+
+    font-weight: 600;
+    font-size: 1.56vw;
+}
+
+h6 {
+    font-weight: 500;
+    font-size: 1.17vw;
+
+
+}
+
+p {
+
+    font-weight: 400;
+    font-size: 1.17vw;
+}
+
+.container {
+    /* margin-left: 4.41vw; */
+    /* margin: 25px; */
+    background-color: #F5F7FA;
+    width: 77.44vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    /* comeback and give margin accordingly */
+    margin: 2.93vw;
+    margin-bottom: 0px;
+}
+
+.section1 .cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.section1 .card {
+    width: 22.56vw;
+    height: 8.79vw;
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.95vw;
+    gap: 0.98vw;
+    /* come back later */
+
+    >.ad {
+        >p {
+            margin-bottom: 10px;
+            color: #718EBF;
+        }
+    }
+
+
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+
+
+    width: 4.88vw;
+    height: 4.88vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >img {
+        width: 1.95vw;
+        height: 1.95vw;
+    }
+}
+
+.card:nth-child(1) .circle {
+    background-color: #DCFAF8;
+}
+
+.card:nth-child(2) .circle {
+    background-color: #FFE0EB;
+
+}
+
+.card:nth-child(3) .circle {
+    background-color: #E7EDFF;
+
+}
+
+.section2 {
+    /* width: 95%; */
+    margin-left: 2.93vw;
+
+    /* width: 35.06vw; */
+    height: 329;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50px; */
+
+    >.card {
+        >img {
+            width: 35.06vw;
+            height: 22.07vw;
+            background-color: white;
+            border-radius: 1.95vw;
+        }
+    }
+}
+
+.section2 .card h4,
+.section3 .card h4 {
+    color: #333B69;
+}
+
+.section3 {
+    /* width: 95%; */
+    margin-left: 2.93vw;
+    margin-top: 0px;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.section3 .slips {
+    width: 41.31vw;
+    height: 22.17vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.98vw;
+
+}
+
+.section3 .slip {
+    width: 41.31vw;
+    height: 6.74vw;
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.95vw;
+    border-radius: 1.95vw;
+
+    >.i {
+        >p {
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 1.07vw;
+            /* margin-top: 10px; */
+            color: #718EBF;
+        }
+
+        >h6 {
+            font-family: Inter;
+            font-weight: 500;
+            font-size: 1.17vw;
+
+        }
+    }
+}
+
+.section3 .slip .square {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    width: 4.39vw;
+    height: 4.39vw;
+
+    border-radius: 1.95vw;
+    background-color: #FFE0EB;
+
+    >img {
+        width: 1.95vw;
+        height: 1.95vw;
+    }
+
+
+
+}
+
+.section3 .slip:nth-child(2) .square {
+    background-color: #E7EDFF;
+
+}
+
+.section3 .slip:nth-child(3) .square {
+    background-color: #E7EDFF;
+
+}
+
+table {
+    border-radius: 1.95vw;
+    border-collapse: collapse;
+    background-color: white;
+
+    width: 28.81vw;
+    height: 22.17vw;
+
+}
+
+td,
+th {
+    text-align: center;
+    /* padding: 10px; */
+}
+
+th {
+    padding-top: 0.98vw;
+    font-weight: 500;
+    font-size: 1.17vw;
+    color: #718EBF;
+}
+
+td {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1.17vw;
+
+}
+
+tr td:nth-child(4) {
+    color: #16DBAA;
+}
+
+tr:nth-child(3) td:nth-child(4),
+tr:nth-child(5) td:nth-child(4) {
+    color: #FE5C73;
+}
+
+@media screen and (max-width:500px) {
+
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        width: 325px;
+        height: 285px !important;
+
+    }
+
+    .section1 .cards {
+        display: flex;
+        flex-direction: column;
+        width: 325px;
+        height: 285px !important;
+        align-items: center;
+    }
+
+    .section1 .cards .card {
+        width: 325px !important;
+        height: 85px !important;
+
+
+    }
+
+    .section1 .card .ad p {
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .section1 .card .ad h5 {
+        font-weight: 600;
+        font-size: 16px;
+
+    }
+
+    .section2,
+    .section3 {
+        flex-direction: column;
+    }
+
+    .section2 .card img {
+        width: 325px;
+        height: 225px;
+
+    }
+
+    .section2 .card h4,
+    .section3 .card h4 {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .section3 .slips {
+        justify-content: space-between;
+        width: 325px;
+        height: 227px;
+
+    }
+
+    .section3 .slips .slip {
+        gap: 20px;
+        width: 325px;
+        height: 69px;
+
+    }
+
+    .section3 .slip .i p {
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .section3 .slip .i h6 {
+        font-weight: 500;
+        font-size: 14px;
+
+    }
+
+    .section3 .slip .i {
+        width: 150px;
+        height: 36px;
+
+    }
+
+    .section3 .slip :nth-child(3) {
+        display: none !important;
+    }
+
+    /* hide only <p> inside the 4th child element (keep its <h6>) */
+    .section3 .slip :nth-child(4) p {
+        display: none !important;
+    }
+
+    .section3 .slip :nth-child(4) h6 {
+        color: #16DBAA;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .section3 .slip .square img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .section3 .card .slips .slip> :nth-child(4) {
+        margin-left: 40px;
+        margin-right: -90px;
+
+    }
+    table{
+        width: 325px;
+height: 213px;
+
+    }
+     table th { 
+font-weight: 400;
+font-size: 12px;
+
+ }
+ table td { 
+font-weight: 400;
+font-size: 12px;
+
+ }
+
+
+
+
+
+
+}

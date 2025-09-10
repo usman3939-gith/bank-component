@@ -1,0 +1,666 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    /* font-family: "Lato", sans-serif; */
+}
+
+
+.container {
+    /* margin-left: 250px; */
+    /* margin: 25px; */
+    /* margin-left: 4.41vw; */
+    background-color: #F5F7FA;
+    height: 100%;
+
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 1.76vw;
+    margin: 1.95vw 0;
+    color: #343C6A;
+
+}
+
+h5 {
+
+    font-weight: 600;
+    font-size: 1.56vw;
+    color: #343C6A;
+}
+
+h6 {
+    font-weight: 500;
+    font-size: 1.27vw;
+    color: #343C6A;
+
+
+}
+
+p {
+
+    font-weight: 400;
+    font-size: 0.98vw;
+    color: #343C6A;
+}
+
+.section1 {
+    margin: 2.93vw;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 30px; */
+}
+
+.section1 .card:nth-child(1) {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 47.56vw;
+    height: 16.60vw;
+    justify-content: space-between;
+
+
+    >.my {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        >p {
+
+            font-weight: 600;
+            font-size: 1.46vw;
+            text-align: right;
+
+        }
+
+    }
+
+    >.credit {
+        display: flex;
+        justify-content: space-between;
+        width: 47.56vw;
+        height: 16.60vw;
+
+        >.subcard {
+            width: 22.56vw;
+            height: 16.60vw;
+            border-radius: 1.95vw;
+            /* color: white; */
+            padding: 1.95vw;
+
+            >hr {
+                margin: 0 -1.95vw;
+                /* max-width: 100%; */
+            }
+
+            >.balance {
+                /* position: absolute; */
+                /* width: 63.00018310546875px; */
+                /* height: 38px; */
+                display: flex;
+                justify-content: space-between;
+
+
+                >img {
+                    width: 2.83vw;
+                    height: 2.83vw;
+                }
+
+            }
+
+            >.info {
+                font-family: "Lato", sans-serif;
+                width: 17.29vw;
+                height: 2.92vw;
+
+                display: flex;
+                justify-content: space-between;
+                margin: 1.71vw 0;
+
+                >hr {
+                    margin: 0 -1.95vw;
+                    /* max-width: 100%; */
+                }
+
+                >.cardholder {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    >p {
+                        font-family: "Lato", sans-serif;
+                        font-size: 0.98vw;
+                        font-weight: 400;
+                        color: #FFFFFFB2;
+
+                    }
+
+                    >h6 {
+                        font-family: "Lato", sans-serif;
+                        font-size: 1.27vw;
+                        font-weight: 600;
+
+                        /* font-weight: 600;
+                        font-size: 15px;
+
+                        line-height: 100%; */
+                    }
+
+
+
+                }
+
+                >.expiry {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    >p {
+                        font-family: "Lato", sans-serif;
+                        font-size: 0.98vw;
+                        font-weight: 400;
+                        color: #FFFFFFB2
+                    }
+
+                    >h6 {
+                        font-family: "Lato", sans-serif;
+
+                        font-weight: 600;
+                        font-size: 1.27vw;
+
+                        line-height: 100%;
+                    }
+
+                }
+            }
+
+            >.number {
+                width: 22.56vw;
+                height: 4.98vw;
+                border-bottom-right-radius: 1.95vw;
+                border-bottom-left-radius: 1.95vw;
+                margin-left: -1.95vw;
+                padding: 1.95vw;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                >h3 {
+                    font-family: "Lato", sans-serif;
+                    font-weight: 600;
+                    font-size: 1.46vw;
+
+                }
+
+                >img {
+                    width: 2.64vw;
+                    height: 1.80vw;
+
+                }
+            }
+
+
+
+        }
+    }
+}
+
+
+.subcard:nth-child(1) {
+    >div h5 {
+        color: white;
+    }
+
+    >div p {
+        color: white;
+    }
+
+    >.info .cardholder h6,
+    >.info .expiry h6 {
+        color: white;
+    }
+
+    >.number h3 {
+        color: white;
+    }
+
+
+
+    /* color: white; */
+    /* background-image: linear-gradient(to right, #4C49ED, #0A06F4); */
+    background-image: linear-gradient(to bottom, #4C49ED, #0A06F4);
+
+    >.number {
+        background-image: linear-gradient(to bottom, #4C49ED, #0A06F4);
+    }
+}
+
+.subcard:nth-child(2) {
+
+    background-color: white;
+
+    >.number {
+        background-color: white;
+    }
+}
+
+.section1 .card:nth-child(2) {
+    width: 22.56vw;
+    height: 16.60vw;
+
+    >img {
+        width: 22.56vw;
+        height: 16.60vw;
+    }
+
+}
+
+.section2 {
+    margin: 2.93vw;
+
+}
+
+.section2 .card {
+    display: flex;
+    /* gap: 30px; */
+    /* justify-content: space-between; */
+    margin-top: 2.93vw;
+
+    /* >span{
+        position: relative;
+        margin: 2.93vw;
+        margin-left : 0px; }*/
+    >p {
+        position: relative;
+        color: #718EBF;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 1.27vw;
+        line-height: 100%;
+        margin-right: 2.93vw;
+
+
+    }
+
+
+}
+
+.section2 .card p::before {
+    display: block;
+    content: '';
+    background-color: #1814F3;
+    position: absolute;
+    /* width: 100%; */
+    width: 9.72vw;
+    height: 0.29vw;
+    border-top-left-radius: 0.98vw;
+    border-top-right-radius: 0.98vw;
+    margin-top: 2.93vw;
+    opacity: 0;
+    /* top: 50px; */
+    /* left: 50px; */
+
+}
+
+.section2 .card p:nth-child(2):before {
+
+    width: 4.72vw;
+}
+
+.section2 .card p:nth-child(3):before {
+
+    width: 5.72vw;
+}
+
+.section2 .card p:hover:before {
+    opacity: 1;
+
+}
+
+.section2 .card p:hover {
+    cursor: pointer;
+
+    color: #1814F3;
+
+}
+
+.section2 h4 {
+    margin-top: 7.81vw;
+}
+
+table {
+    width: 72.56vw;
+    height: 27.05vw;
+    border-radius: 1.95vw;
+    background-color: white;
+
+
+
+}
+
+tr,
+td {
+    border-radius: 1.95vw;
+    /* padding: 30px; */
+
+}
+
+td,
+th {
+    /* padding: 0 2.93vw; */
+    padding-left: 0.98vw;
+}
+
+th {
+    padding-top: 1.95vw;
+}
+
+
+th {
+
+    font-weight: 500;
+    font-size: 1.17vw;
+    color: #718EBF;
+}
+
+td {
+
+    font-weight: 400;
+    font-size: 1.17vw;
+}
+
+td:nth-child(1) {
+    background-image: url(Group\ 73.png);
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    padding-left: 3.91vw;
+    background-size: 1.95vw 1.95vw;
+}
+
+tr:nth-child(2) td:nth-child(1),
+tr:nth-child(5) td:nth-child(1) {
+    background-image: url(Group\ 73\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    padding-left: 3.91vw;
+
+}
+
+td:nth-child(6) {
+    color: #FE5C73;
+}
+
+tr:nth-child(2) td:nth-child(6),
+tr:nth-child(5) td:nth-child(6) {
+    color: #16DBAA;
+}
+
+
+th,
+td {
+    text-align: left;
+}
+
+table button {
+    width: 7.81vw;
+    height: 2.93vw;
+    border-radius: 1.95vw;
+    background-color: white;
+    font-size: 1.17vw;
+    border: 1px solid;
+}
+
+table button:hover {
+    /* border-radius: 1px solid #1814F3; */
+    border-color: #1814F3;
+    color: #1814F3;
+}
+
+.section3 {
+    margin: 2.93vw;
+    display: flex;
+}
+
+.btn {
+    width: 24.51vw;
+    height: 2.93vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75%;
+    margin-top: -3%;
+
+
+}
+
+.btn button {
+    border: none;
+    border-color: #F5F7FA;
+    background-color: #F5F7FA;
+    color: #1814F3;
+    font-size: 1.17vw;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .container,
+    .section1,
+    .section1 .card {
+        height: auto !important;
+        min-height: 0 !important;
+        overflow: visible !important;
+        /* background-color: white; */
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    /* credit card */
+    .section1 .card:nth-child(1) .credit {
+        width: 550px;
+        height: 170.000244140625px;
+    }
+
+    .section1 .card:nth-child(1) .my {
+        width: 355px;
+
+        >h2 {
+            font-family: "inter", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            color: #343C6A;
+            margin: 20px 0;
+        }
+
+        >h4 {
+            font-family: "inter", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            color: #343C6A;
+            margin: 20px 0;
+        }
+
+        >p {
+            font-family: "inter", sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            color: #343C6A;
+
+        }
+    }
+
+    .section1 .card:nth-child(1) .credit .subcard {
+        padding: 20px;
+        width: 265px;
+        height: 170px;
+        border-radius: 15px;
+    }
+
+    .section1 .card:nth-child(1) .credit .subcard .balance {
+        >div p {
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-size: 11px;
+        }
+
+        >div h5 {
+            font-family: "Lato", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        >img {
+            width: 29px;
+            height: 29px;
+
+
+        }
+
+
+    }
+
+    .section1 .card:nth-child(1) .credit .subcard .info {
+        width: 193px;
+        height: 29.892822265625px;
+    }
+
+    .section1 .card:nth-child(1) .credit .subcard .info .cardholder,
+    .section1 .card:nth-child(1) .credit .subcard .info .expiry {
+        >p {
+            font-family: "Lato", sans-serif;
+            font-size: 10px;
+            font-weight: 400;
+        }
+
+        >h6 {
+            font-family: "Lato", sans-serif;
+            font-weight: 600;
+            font-size: 13px;
+        }
+
+    }
+
+    .section1 hr {
+        margin-top: -12px !important;
+        display: none;
+    }
+
+    .section1 .card:nth-child(1) .credit .subcard .number {
+        width: 265px;
+        height: 51px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        margin-left: -20px;
+        margin-top: 30px;
+        padding: 20px;
+
+        >h3 {
+            font-family: "Lato", sans-serif;
+            font-weight: 600px;
+            font-size: 15px;
+        }
+
+        >img {
+            width: 27px;
+            height: 18.40909194946289px;
+        }
+    }
+
+    /* credit card */
+    .section1 .card:nth-child(2) img {
+        width: 325px;
+        height: 214px;
+    }
+
+    h4 {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        margin: 30px 0px;
+    }
+
+    .section1 .card:nth-child(2) {
+        width: 100%;
+        height: auto;
+    }
+    .section2 .card{
+        justify-content: space-around;
+    }
+    .section2 .card p{
+font-weight: 500;
+font-size: 13px;
+
+    }
+    .section2 .card p::before {
+        width: 100px;
+height: 2px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+        margin-top: 20px;
+
+    }
+    .section2 .card p:nth-child(2):before
+ {
+    width: 50px;
+}
+.section2 .card p:nth-child(3):before {
+    width: 55px;
+}
+
+    .section2 table {
+        width: 325px;
+height: 299px;
+border-radius: 15px;
+
+        /* table-layout: fixed; */
+    }
+    table th{
+        display: none;
+    }
+    table tr td:nth-child(1){
+        background-size:35px 35px ;
+font-weight: 500;
+font-size: 13px;
+padding-left:50px;
+width: 240px !important;
+height: 36px;
+
+
+    }
+     table tr:nth-child(2) td:nth-child(1),
+     table tr:nth-child(5) td:nth-child(1){
+        background-size:35px 35px ;
+font-weight: 500;
+font-size: 13px;
+padding-left:50px;
+    }
+    table td:nth-child(6){
+        font-weight: 500;
+font-size: 13px;
+    }
+
+    .section2 table tr> :not(:first-child):not(:nth-child(6)) {
+        display: none !important;
+    }
+
+    .section3 .btn {
+        width: 251px !important;
+        height: 30px !important;
+        margin-left: 50px;
+                margin-top: 5px;
+
+    }
+
+    .section3 .btn button {
+        /* width: 251px !important;
+        height: 30px !important; */
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
