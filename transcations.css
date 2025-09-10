@@ -456,6 +456,11 @@ table button:hover {
         overflow: visible !important;
         /* background-color: white; */
     }
+     .container{
+        /* width: 100vw; */
+            padding: 0px 15px;
+
+    }
 
     .section1 {
         display: flex;
@@ -663,4 +668,5 @@ font-size: 13px;
         font-size: 12px;
         font-weight: 500;
     }
+
 }
