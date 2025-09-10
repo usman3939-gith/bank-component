@@ -631,6 +631,10 @@
         overflow: visible !important;
         background-color: white;
     }
+    .container{
+                    margin: 0px 15px;
+    }
+        
 
     .section1 {
         display: flex;
@@ -939,4 +943,5 @@
         height: 14px;
 
     }
+
 }
