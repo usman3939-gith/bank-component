@@ -8,6 +8,11 @@
     font-family: "Inter", sans-serif;
     /* font-family: "Lato", sans-serif; */
 }
+header .items .overview h1{
+    margin-left: 24vw;
+    position: absolute;
+    
+}
 
 .container {
     /* margin-left: 4.41vw; */
@@ -490,14 +495,14 @@
                     >h6 {
                         font-family: "Inter", sans-serif;
                         font-weight: 400;
-                        font-size: 1.17vw;
+                        font-size: 0.95vw;
 
                     }
 
                     >p {
                         font-family: Inter;
                         font-weight: 400;
-                        font-size: 1.17vw;
+                        font-size: 0.95vw;
                         color: #718EBF;
 
                     }
@@ -615,6 +620,9 @@
 
     }
 
+}
+.section1, .section2, .section3{
+    gap: 30px !important;
 }
 
 
@@ -743,6 +751,10 @@
             width: 27px;
             height: 18.40909194946289px;
         }
+    }
+     .section1 .card:nth-child(1) .credit:nth-child(2) .subcard,
+    .section1 .card:nth-child(1) .credit:nth-child(2) .subcard .number{
+        border: 0.84px solid #DFEAF2;
     }
 
     /* credit card */
@@ -945,3 +957,4 @@
     }
 
 }
+
