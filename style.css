@@ -657,7 +657,7 @@ header .items .overview h1{
     }
 
     .section1 .card:nth-child(1) .my {
-        width: 355px;
+        width: 330px;
 
         >h2 {
             font-family: "inter", sans-serif;
@@ -957,6 +957,7 @@ header .items .overview h1{
     }
 
 }
+
 
 
 
