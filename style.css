@@ -8,11 +8,11 @@
     font-family: "Inter", sans-serif;
     /* font-family: "Lato", sans-serif; */
 }
-header .items .overview h1{
+/* header .items .overview h1{
     margin-left: 24vw;
     position: absolute;
     
-}
+} */
 
 .container {
     /* margin-left: 4.41vw; */
@@ -957,4 +957,5 @@ header .items .overview h1{
     }
 
 }
+
 
