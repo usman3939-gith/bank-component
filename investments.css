@@ -116,6 +116,9 @@ p {
     background-color: #E7EDFF;
 
 }
+.section2, .section3{
+    gap: 30px;
+}
 
 .section2 {
     /* width: 95%; */
@@ -124,7 +127,7 @@ p {
     /* width: 35.06vw; */
     height: 329;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     /* gap: 50px; */
 
     >.card {
@@ -148,7 +151,7 @@ p {
     margin-top: 0px;
     display: flex;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
@@ -387,6 +390,7 @@ font-weight: 400;
 font-size: 12px;
 
  }
+
 
 
 
