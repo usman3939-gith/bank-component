@@ -9,7 +9,7 @@
     /* font-family: "Lato", sans-serif; */
 }
 header .items .overview h1{
-    margin-left: 24vw;
+    margin-left: 24vw !important;
     position: absolute;
     
 }
@@ -957,6 +957,7 @@ header .items .overview h1{
     }
 
 }
+
 
 
 
