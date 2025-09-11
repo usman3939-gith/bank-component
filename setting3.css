@@ -147,7 +147,7 @@
     width: 32.62vw;
     height: 6.15vw;
 
-    border: 1px solid #DFEAF2;
+/*     border: 1px solid #DFEAF2; */
     border-radius: 15px;
 
     >input {
@@ -271,5 +271,6 @@ font-weight: 500;
 font-size: 15px;
 
     }
+
 
 }
