@@ -116,6 +116,7 @@
 }
 
 table {
+    width: 72.56vw;
 
     border-spacing: 0px 20px;
     border-radius: 20px;
@@ -347,6 +348,7 @@ height: 45px;
         text-align: center;
 
     }
+
 
 
 
