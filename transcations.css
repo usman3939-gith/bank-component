@@ -431,7 +431,7 @@ table button:hover {
     height: 2.93vw;
     display: flex;
     justify-content: space-between;
-    margin-left: 75%;
+    margin-left: 70%;
     margin-top: -3%;
 
 
@@ -670,3 +670,4 @@ font-size: 13px;
     }
 
 }
+
