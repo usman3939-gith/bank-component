@@ -32,8 +32,9 @@ header {
         /* position: absolute;
     top: 1.95vw;
 left: 0.98vw; */
-        width: 17.87vw;
-        height: 3.52vw;
+        margin-left: 3vw;
+        width: 14.3vw;
+        height: 2.82vw;
     }
 
     width: 94.14vw;
@@ -518,3 +519,4 @@ height: 45px;
 
 
 }
+
