@@ -44,9 +44,10 @@ left: 0.98vw; */
     align-items: center;
 
     >h1 {
-        /* position: absolute; */
+        position: absolute;
         font-size: 2.44vw;
         color: #343C6A;
+        margin-left: 25vw !important;
         /* margin-left: -15.23vw; */
         /* margin-left: -6.84vw; */
 
@@ -292,7 +293,7 @@ top: -10.74vw;
     .overview h1 {
         position: absolute;
         top: 28px;
-        left: 40%;
+        left: !5%;
         width: 24.8vw;
         height: 6.4vw;
         font-family: Inter;
@@ -519,4 +520,5 @@ height: 45px;
 
 
 }
+
 
