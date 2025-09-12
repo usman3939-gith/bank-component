@@ -1241,6 +1241,7 @@ height: 223px;
     .section3 .card:nth-child(1)>.subcard {
         width: 325px;
         height: 195px;
+        padding: 20px;
     }
 
     .section3 .card:nth-child(1) .contactinfo .contact {
