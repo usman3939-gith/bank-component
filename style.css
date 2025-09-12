@@ -6,44 +6,42 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+    font-size: 16px;
     /* font-family: "Lato", sans-serif; */
-}
-header .items .overview h1{
-    margin-left: 24vw !important;
-    position: absolute;
-    
 }
 
 .container {
-    /* margin-left: 4.41vw; */
     background-color: #F5F7FA;
-    height: 100%;
-    width: 77.44vw;
-    height: auto;
-    /* padding: 35px; */
-
+    width: 74.375rem;
+    height: 67.6875rem;
+    /* height: auto; */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.section2,
+
+/* .section2,
 .section3 {
     margin: 2.93vw;
-}
+} */
 
 /* start of section 1 */
 .section1 {
-    margin: 2.93vw;
+    /* margin: 2.93vw; */
     display: flex;
     justify-content: space-between;
     /* gap: 30px; */
-    gap: 12px;
+    /* gap: 12px; */
 }
 
 .section1 .card:nth-child(1) {
     font-family: "Lato", sans-serif;
     display: flex;
     flex-direction: column;
-    width: 47.56vw;
-    height: 20.31vw;
+    width: 45.625rem;
+    height: 17.625rem;
     justify-content: space-between;
 
 
@@ -54,7 +52,7 @@ header .items .overview h1{
 
         >h2 {
             font-weight: 600;
-            font-size: 1.76vw;
+            font-size: 1.375rem;
             /* margin: 1.95vw 0; */
             color: #343C6A;
         }
@@ -62,7 +60,7 @@ header .items .overview h1{
         >p {
             color: #343C6A;
             font-weight: 600;
-            font-size: 1.46vw;
+            font-size: 1.0625rem;
             text-align: right;
 
         }
@@ -72,20 +70,19 @@ header .items .overview h1{
     >.credit {
         display: flex;
         justify-content: space-between;
-        width: 47.56vw;
-        height: 16.60vw;
+        /* width: 47.56vw; */
+        /* height: 16.60vw; */
 
         >.subcard {
-            width: 22.56vw;
-            height: 16.60vw;
-            border-radius: 1.95vw;
-            /* color: white; */
-            padding: 1.95vw;
+            width: 21.875rem;
+            height: 14.6875rem;
+            border-radius: 25px;
+            padding: 1.5625rem;
 
-            >hr {
+            /* >hr {
                 margin: 0 -1.95vw;
-                /* max-width: 100%; */
-            }
+               
+            } */
 
             >.balance {
                 /* position: absolute; */
@@ -98,7 +95,7 @@ header .items .overview h1{
 
                     font-family: "Lato", sans-serif;
                     font-weight: 400;
-                    font-size: 1.07vw;
+                    font-size: 0.75rem;
 
 
                 }
@@ -106,29 +103,31 @@ header .items .overview h1{
                 >div h5 {
                     font-family: "Lato", sans-serif;
                     font-weight: 600;
-                    font-size: 1.56vw;
+                    font-size: 1.25rem;
 
                 }
 
                 >img {
-                    width: 2.83vw;
-                    height: 2.83vw;
+                    width: 2.1732rem;
+                    height: 2.1732rem;
+                    object-fit: contain;
                 }
 
             }
 
             >.info {
                 font-family: "Lato", sans-serif;
-                width: 17.29vw;
-                height: 2.92vw;
+                width: 14.1875rem;
+                height: 2.1808rem;
                 display: flex;
                 justify-content: space-between;
-                margin: 1.71vw 0;
+                margin: 2.0625rem 0;
+                /* margin: 1.71vw 0; */
 
-                >hr {
+                /* >hr {
                     margin: 0 -1.95vw;
-                    /* max-width: 100%; */
-                }
+                   
+                } */
 
                 >.cardholder {
                     display: flex;
@@ -137,16 +136,16 @@ header .items .overview h1{
 
                     >p {
                         font-family: "Lato", sans-serif;
-                        font-size: 0.98vw;
                         font-weight: 400;
+                        font-size: 0.75rem;
                         color: #FFFFFFB2;
 
                     }
 
                     >h6 {
                         font-family: "Lato", sans-serif;
-                        font-size: 1.27vw;
                         font-weight: 600;
+                        font-size: 0.9375rem;
 
                         /* font-weight: 600;
                         font-size: 15px;
@@ -165,8 +164,8 @@ header .items .overview h1{
 
                     >p {
                         font-family: "Lato", sans-serif;
-                        font-size: 0.98vw;
                         font-weight: 400;
+                        font-size: 0.75rem;
                         color: #FFFFFFB2
                     }
 
@@ -174,21 +173,23 @@ header .items .overview h1{
                         font-family: "Lato", sans-serif;
 
                         font-weight: 600;
-                        font-size: 1.27vw;
+                        font-size: 0.9375rem;
 
                         line-height: 100%;
                     }
 
                 }
+
             }
 
             >.number {
-                width: 22.56vw;
-                height: 4.98vw;
-                border-bottom-right-radius: 1.95vw;
-                border-bottom-left-radius: 1.95vw;
-                margin-left: -1.95vw;
-                padding: 1.95vw;
+                width: 21.875rem;
+                height: 4.375rem;
+                border-bottom-right-radius: 25px;
+                border-bottom-left-radius: 25px;
+                margin-left: -1.5625rem;
+
+                padding: 1.5625rem;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -196,13 +197,14 @@ header .items .overview h1{
                 >h3 {
                     font-family: "Lato", sans-serif;
                     font-weight: 600;
-                    font-size: 1.46vw;
+                    font-size: 1.375rem;
 
                 }
 
                 >img {
-                    width: 2.64vw;
-                    height: 1.80vw;
+                    width: 2.75rem;
+                    height: 1.875rem;
+                    object-fit: contain;
 
                 }
             }
@@ -212,6 +214,7 @@ header .items .overview h1{
         }
     }
 }
+
 
 .subcard:nth-child(1) {
     color: white;
@@ -228,7 +231,21 @@ header .items .overview h1{
     background-color: white;
 
     >.number {
+        border: 1px solid #DFEAF2;
         background-color: white;
+    }
+
+    >.info .cardholder {
+        >p {
+            color: #718EBF !important;
+        }
+
+    }
+
+    >.info .expiry {
+        >p {
+            color: #718EBF !important;
+        }
     }
 }
 
@@ -246,15 +263,14 @@ header .items .overview h1{
     flex-direction: column;
     justify-content: space-between;
 
-    /* gap: 25px; */
-    width: 22.56vw;
-    height: 20.31vw;
+    width: 21.875rem;
+    height: 17.625rem;
 
 
     >p {
         font-family: "Inter", sans-serif;
         font-weight: 600;
-        font-size: 1.76vw;
+        font-size: 1.375rem;
         /* margin: 1.95vw 0; */
         color: #343C6A;
     }
@@ -262,25 +278,25 @@ header .items .overview h1{
     >.transcation {
 
         background-color: white;
-        width: 22.56vw;
-        height: 16.60vw;
-        border-radius: 1.95vw;
+        width: 21.875rem;
+        height: 14.6875rem;
+        border-radius: 25px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        padding: 0.98vw;
-        gap: 0.98vw;
+        /* align-items: center; */
+        padding: 20px;
+        gap: 12px;
 
         >.payments {
             display: flex;
-            justify-content: space-between;
+            /* justify-content: space-between; */
             align-items: center;
-            gap: 0.98vw;
+            gap: 12px;
 
             >.circle {
-                width: 3.91vw;
-                height: 3.91vw;
+                width: 3.4375rem;
+                height: 3.4375rem;
                 border-radius: 50%;
 
                 display: flex;
@@ -288,13 +304,8 @@ header .items .overview h1{
                 align-items: center;
 
                 >img {
-                    width: 1.95vw;
-                    height: 1.95vw;
-                    /* width: 28px;
-                    height: 28px;
-                    top: 210px;
-                    left: 1089px; */
-
+                    width: 1.75rem;
+                    height: 1.75rem;
                 }
 
 
@@ -302,8 +313,8 @@ header .items .overview h1{
             }
 
             >.deposit {
-                width: 10.06vw;
-                height: 3.32vw;
+                width: 10.4375rem;
+                height: 2.75rem;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -313,7 +324,7 @@ header .items .overview h1{
                 >p {
                     font-family: "Inter", sans-serif;
                     font-weight: 500;
-                    font-size: 1.27vw;
+                    font-size: 1rem;
                     line-height: 100%;
 
                 }
@@ -322,9 +333,8 @@ header .items .overview h1{
                     font-family: "Inter", sans-serif;
 
                     font-weight: 400;
-                    font-size: 1.17vw;
+                    font-size: 1rem;
                     color: #718EBF;
-
                     line-height: 100%;
 
                 }
@@ -334,8 +344,8 @@ header .items .overview h1{
                 /* width: 49px;
                 height: 19px; */
                 font-family: "Inter", sans-serif;
-                font-weight: 400;
-                font-size: 1.07vw;
+                font-weight: 500;
+                font-size: 1rem;
 
                 line-height: 100%;
 
@@ -347,6 +357,7 @@ header .items .overview h1{
     }
 
 }
+
 
 .card:nth-child(2) .payments:nth-child(1) .circle {
     background-color: #FFF5D9;
@@ -387,8 +398,9 @@ header .items .overview h1{
 
 
     >.card:nth-child(1) {
-        width: 47.56vw;
-        height: 29.20vw;
+        width: 730px;
+        height: 367px;
+
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -399,23 +411,25 @@ header .items .overview h1{
             font-family: "Inter", sans-serif;
 
             font-weight: 600;
-            font-size: 1.76vw;
+            font-size: 22px;
             color: #343C6A;
-            margin: 1.95vw 0;
+            /* margin-top: 25px; */
         }
 
         >img {
-            /* position: absolute; */
-            width: 47.56vw;
-            height: 25.49vw;
+
+            width: 730px;
+            height: 322px;
+            object-fit: contain;
+
 
         }
 
     }
 
     >.card:nth-child(2) {
-        width: 22.56vw;
-        height: 29.20vw;
+        width: 350px;
+        height: 367px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -425,15 +439,15 @@ header .items .overview h1{
             font-family: "Inter", sans-serif;
 
             font-weight: 600;
-            font-size: 1.76vw;
+            font-size: 22px;
             color: #343C6A;
-            margin: 1.95vw 0;
+            /* margin-top: 25px; */
         }
 
         >img {
-            width: 22.56vw;
-            height: 25.49vw;
-
+            width: 350px;
+            height: 322px;
+            object-fit: contain;
         }
 
     }
@@ -442,16 +456,10 @@ header .items .overview h1{
 /* end of section2 */
 /* start of section3 */
 .section3 {
-    /* display: flex;
-        flex-direction: column; */
-    /* display: grid;
-        grid-template-columns: 1fr 1fr; */
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-    /* padding: 25px; */
 
-    .card:nth-child(1) {
+    >.card:nth-child(1) {
         /* width: 445px;
             height: 323px; */
 
@@ -463,7 +471,7 @@ header .items .overview h1{
         >p {
             font-family: "Inter", sans-serif;
             font-weight: 600;
-            font-size: 1.76vw;
+            font-size: 22px;
             color: #343C6A;
 
         }
@@ -472,37 +480,37 @@ header .items .overview h1{
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            width: 28.81vw;
-            height: 21.48vw;
-            border-radius: 1.95vw;
-            padding: 2.93vw;
+            width: 445px;
+            height: 276px;
+
+            border-radius: 25px;
+
+            padding: 30px;
 
             >.contactinfo {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                gap: 10px;
-
-
+                /* gap: 10px; */
 
                 >.contact {
                     /* width: 5.86vw;
                     height: 9.08vw; */
-                    gap: 5px;
+                    /* gap: 5px; */
                     display: flex;
                     flex-direction: column;
 
                     >h6 {
                         font-family: "Inter", sans-serif;
                         font-weight: 400;
-                        font-size: 0.95vw;
+                        font-size: 16px;
 
                     }
 
                     >p {
-                        font-family: Inter;
+                        font-family: "Inter", sans-serif;
                         font-weight: 400;
-                        font-size: 0.95vw;
+                        font-size: 15px;
                         color: #718EBF;
 
                     }
@@ -516,21 +524,24 @@ header .items .overview h1{
 
 }
 
+
 .section3 .card:nth-child(1) img {
-    width: 4.88vw;
-    height: 4.88vw;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
 }
 
 
 
 .section3 .card:nth-child(1) .contactinfo .btn button {
-    width: 3.91vw;
-    height: 3.91vw;
+    width: 50px;
+    height: 50px;
+
     border: .5px solid #718EBF;
     color: #718EBF;
     border-radius: 50%;
-    font-size: 1.76vw;
+    font-size: 22px;
+    background-color: white;
 
 
 }
@@ -541,15 +552,14 @@ header .items .overview h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 25.88vw;
-    height: 3.91vw;
-
+    width: 395px;
+    height: 50px;
 
 
     >p {
         font-family: "Inter", sans-serif;
         font-weight: 400;
-        font-size: 1.17vw;
+        font-size: 16px;
         color: #718EBF;
 
 
@@ -558,15 +568,15 @@ header .items .overview h1{
 
     >input {
         position: absolute;
-        margin-left: 9.47vw;
+        margin-left: 120px;
         flex: 1;
-        width: 16.41vw;
-        height: 3.91vw;
-        border-radius: 20px;
-        padding-left: 0.98vw;
+        width: 265px;
+        height: 50px;
+        padding-left: 20px;
         opacity: 1;
         border-right: none;
-        font-size: 1.17vw;
+        font-size: 16px;
+        border-radius: 40px;
 
     }
 
@@ -575,20 +585,20 @@ header .items .overview h1{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        width: 9.77vw;
-        height: 3.91vw;
+        width: 125px;
+        height: 50px;
         border-radius: 50px;
         font-family: "Inter", sans-serif;
         font-weight: 500;
-        font-size: 1.27vw;
+        font-size: 16px;
         color: white;
         background-color: #1814F3;
 
 
         >img {
 
-            width: 1.57vw;
-            height: 1.37vw;
+            width: 26.00002098083496px;
+            height: 22.598596572875977px;
             object-fit: contain;
 
         }
@@ -597,34 +607,367 @@ header .items .overview h1{
 }
 
 .section3 .card:nth-child(2) {
-    /* width: 635px;
-    height: 323px; */
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 26.2vw;
-    /* gap: 20px; */
+    width: 635px;
+    height: 323px;
 
     >p {
         font-family: "Inter", sans-serif;
         font-weight: 600;
-        font-size: 1.76vw;
+        font-size: 22px;
         line-height: 100%;
         color: #343C6A;
     }
 
     >img {
-        width: 41.31vw;
-        height: 21.48vw;
+        width: 635px;
+        height: 276px;
+        /* object-fit: contain; */
+
+
 
     }
 
 }
-.section1, .section2, .section3{
-    gap: 30px !important;
+
+.section1,
+.section2,
+.section3 {
+    gap: 20px !important;
 }
 
+@media screen and (max-width:1024px) {
+
+
+    .container {
+        width: 793px;
+        height: 857px;
+        padding: 30px;
+    }
+
+
+
+    .section1 .card:nth-child(1) {
+        width: 487px;
+        height: 208px;
+
+
+
+        >.my {
+            >h2 {
+                font-weight: 600;
+                font-size: 18px;
+
+            }
+
+            >p {
+                font-weight: 600;
+                font-size: 15px;
+            }
+        }
+
+        >.credit {
+            width: 487px;
+            height: 170px;
+
+            >.subcard {
+                width: 231px;
+                height: 170px;
+
+                border-radius: 20px;
+                padding: 20px;
+
+                >.balance {
+                    >div p {
+                        font-weight: 400;
+                        font-size: 11px;
+                    }
+
+                    >div h5 {
+                        font-weight: 600;
+                        font-size: 16px;
+                    }
+
+                    >img {
+                        width: 29px;
+                        height: 29px;
+                    }
+                }
+
+                >.info {
+                    width: 177px;
+                    height: 29.892822265625px;
+                    margin: 20px 0;
+
+
+                    >.cardholder {
+                        >p {
+                            font-weight: 400;
+                            font-size: 10px;
+                        }
+
+                        >h6 {
+                            font-weight: 600;
+                            font-size: 13px;
+                        }
+                    }
+
+                    >.expiry {
+                        >p {
+                            font-weight: 400;
+                            font-size: 10px;
+                        }
+
+                        >h6 {
+                            font-weight: 600;
+                            font-size: 13px;
+                        }
+                    }
+                }
+
+                >.number {
+                    width: 231px;
+                    height: 51px;
+                    border-bottom-right-radius: 20px;
+                    border-bottom-left-radius: 20px;
+                    /* margin-top:-10px; */
+                    margin-left: -20px;
+                    padding: 25px;
+
+                    >h3 {
+                        font-weight: 600;
+                        font-size: 15px
+                    }
+
+                    >img {
+                        width: 27px;
+                        height: 18.40909194946289px;
+
+                    }
+                }
+
+
+            }
+        }
+
+
+    }
+
+    .section1 .card:nth-child(2) {
+        width: 231px;
+        height: 208px;
+
+
+        >p {
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        >.transcation {
+            width: 231px;
+            height: 170px;
+            border-radius: 20px;
+
+
+            >.payments {
+                >.circle {
+                    width: 40px;
+                    height: 40px;
+
+                    >img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+
+                >.deposit {
+                    width: 103px;
+                    height: 34px;
+
+                    >p {
+                        font-weight: 500;
+                        font-size: 12px;
+                    }
+
+                    >h6 {
+                        font-weight: 400;
+                        font-size: 11px;
+                    }
+                }
+
+                >p {
+                    font-weight: 500;
+                    font-size: 11px;
+                }
+            }
+        }
+
+    }
+
+    .section2 {
+        >.card:nth-child(1) {
+            width: 487px;
+            height: 299px;
+
+            >p {
+                font-size: 18px;
+            }
+
+            >img {
+
+                width: 487px;
+                height: 261px;
+
+
+            }
+        }
+
+        >.card:nth-child(2) {
+            width: 231px;
+            height: 299px;
+
+            >p {
+                font-size: 18px;
+            }
+
+            >img {
+                width: 231px;
+                height: 261px;
+
+            }
+        }
+
+    }
+
+    .section3 {
+        >.card:nth-child(1) {
+            height: 260px;
+
+            >p {
+                font-weight: 600;
+                font-size: 18px;
+            }
+
+            .subcard {
+                width: 295px;
+                height: 220px;
+                border-radius: 20px;
+
+                padding: 30px 15px;
+
+                >.contactinfo {
+
+                    >.contact {
+                        width: 71px;
+                        height: 93px;
+                        gap: 5px;
+
+                        >.image {
+                            width: 50px;
+                            height: 50px;
+
+                            >img {
+                                width: 50px;
+                                height: 50px;
+                            }
+                        }
+
+                        >h6 {
+                            font-size: 12px;
+
+                        }
+
+                        >p {
+                            font-size: 12px;
+
+                        }
+
+                    }
+
+                    >.btn button {
+                        width: 40px;
+                        height: 40px;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .section3 .subcard .amount {
+        width: 265px;
+        height: 40px;
+
+
+
+        >p {
+
+            font-weight: 400;
+            font-size: 12px;
+
+
+
+        }
+
+        >input {
+            width: 168px;
+            height: 40px;
+            border-radius: 50px;
+
+            padding-left: 10px;
+            opacity: 1;
+            font-size: 12px;
+            border-radius: 50px;
+            margin-left: 95px;
+
+        }
+
+        >.btn button {
+            width: 100px;
+            height: 40px;
+
+
+            border-radius: 50px;
+            font-weight: 500;
+            font-size: 13px;
+
+
+
+            >img {
+
+                width: 16.107208251953125px;
+                height: 14px;
+
+                object-fit: contain;
+
+            }
+
+        }
+    }
+
+    .section3 .card:nth-child(2) {
+        /* width: 635px;
+height: 323px; */
+        height: 260px;
+
+        >p {
+
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        >img {
+            width: 423px;
+            height: 220px;
+
+
+        }
+
+    }
+
+}
 
 
 
@@ -639,10 +982,10 @@ header .items .overview h1{
         overflow: visible !important;
         background-color: white;
     }
-    .container{
-                    margin: 0px 15px;
+
+    .container {
+        margin: 0px 15px;
     }
-        
 
     .section1 {
         display: flex;
@@ -657,7 +1000,7 @@ header .items .overview h1{
     }
 
     .section1 .card:nth-child(1) .my {
-        width: 330px !important;
+        width: 355px;
 
         >h2 {
             font-family: "inter", sans-serif;
@@ -752,8 +1095,9 @@ header .items .overview h1{
             height: 18.40909194946289px;
         }
     }
-     .section1 .card:nth-child(1) .credit:nth-child(2) .subcard,
-    .section1 .card:nth-child(1) .credit:nth-child(2) .subcard .number{
+
+    .section1 .card:nth-child(1) .credit:nth-child(2) .subcard,
+    .section1 .card:nth-child(1) .credit:nth-child(2) .subcard .number {
         border: 0.84px solid #DFEAF2;
     }
 
@@ -856,7 +1200,8 @@ header .items .overview h1{
         gap: 12px !important;
 
     }
-    .section3 .card{
+
+    .section3 .card {
         height: auto !important;
     }
 
@@ -955,12 +1300,4 @@ header .items .overview h1{
         height: 14px;
 
     }
-
 }
-
-
-
-
-
-
-
