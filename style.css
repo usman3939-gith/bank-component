@@ -491,6 +491,7 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                text-align: center;
                 /* gap: 10px; */
 
                 >.contact {
@@ -499,6 +500,9 @@
                     /* gap: 5px; */
                     display: flex;
                     flex-direction: column;
+                    >.image{
+                        margin-bottom: 10px;
+                    }
 
                     >h6 {
                         font-family: "Inter", sans-serif;
@@ -863,6 +867,7 @@
                         width: 71px;
                         height: 93px;
                         gap: 5px;
+                        align-items: center;
 
                         >.image {
                             width: 50px;
@@ -1251,7 +1256,9 @@ height: 223px;
         justify-content: space-between;
         width: 60px;
         height: 93px;
+
     }
+   
 
     .section3 .card:nth-child(1) .contactinfo .contact .image img {
         width: 50px;
