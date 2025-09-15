@@ -121,7 +121,7 @@ h6 {
     align-items: center;
     margin-top: 0px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 
 }
 
@@ -309,7 +309,7 @@ tr:nth-child(3) .square {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 
 }
 
@@ -457,7 +457,7 @@ tr:nth-child(3) .square {
 
     .section2 {
         margin-top: 0px;
-        gap: 10px;
+        gap: 20px;
     }
 
     table {
@@ -575,7 +575,7 @@ tr:nth-child(3) .square {
 
 
     .section3 {
-        gap: 10px;
+        gap: 20px;
 
     }
 
