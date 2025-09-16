@@ -12,25 +12,21 @@
 
 
 .container {
-    /* margin-left: 4.41vw; */
-    /* margin: 25px; */
     background-color: #F5F7FA;
-    width: 77.44vw;
-    height: 93.46vw;
+    width: 1190px;
+    height: 923px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
+    padding: 50px;
 }
 
 .section1 {
-    margin: 2.93vw;
+    /* margin: 2.93vw; */
 }
 
 .cards {
-    width: 72.56vw;
-    height: 8.79vw;
-
+    width: 1110px;
+    height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,9 +34,9 @@
 }
 
 .card {
-    width: 22.56vw;
-    height: 8.79vw;
-    border-radius: 1.46vw;
+    width: 350px;
+    height: 120px;
+    border-radius: 25px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -51,16 +47,16 @@
 }
 
 .circle {
-    width: 4.88vw;
-    height: 4.88vw;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 
     >img {
-        width: 1.95vw;
-        height: 1.95vw;
+        width: 30px;
+        height: 30px;
     }
 
 
@@ -84,14 +80,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
-    width: 11.33vw;
-    height: 3.71vw;
+    width: 154px;
+    height: 51px;
+
 
     >h6 {
 
         font-weight: 600;
-        font-size: 1.56vw;
+        font-size: 20px;
         color: #232323;
 
     }
@@ -99,7 +95,7 @@
     >p {
 
         font-weight: 400;
-        font-size: 1.17vw;
+        font-size: 16px;
         color: #718EBF;
 
     }
@@ -108,7 +104,6 @@
 }
 
 .section2 {
-    margin: 2.93vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -116,44 +111,44 @@
 }
 
 table {
-    width: 72.56vw;
-
+    margin-top: 20px;
+    width: 1110px;
     border-spacing: 0px 20px;
     border-radius: 20px;
 
 }
 
 caption {
-
+    color: #343C6A;
     font-weight: 600;
-    font-size: 1.76vw;
+    font-size: 22px;
     text-align: left;
 
 }
 
 tr {
-    width: 72.56vw;
-    height: 6.74vw;
+    width: 1110px;
+    height: 90px;
     border-width: 1px;
     background-color: white;
 }
 
 tr td:first-child,
 th:first-child {
-    border-top-left-radius: 1.46vw;
-    border-bottom-left-radius: 1.46vw;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 tr td:last-child,
 th:last-child {
-    border-top-right-radius: 1.46vw;
-    border-bottom-right-radius: 1.46vw;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 tr td,
 tr th {
     text-align: start;
-    padding: 0px 1vw;
+    padding: 0px 12px;
 
 
 }
@@ -162,7 +157,7 @@ td h6,
 th h6 {
 
     font-weight: 500;
-    font-size: 1.27vw;
+    font-size: 16px;
     color: #232323;
     /* padding: 0.98vw 0; */
 
@@ -172,20 +167,20 @@ td p,
 th p {
 
     font-weight: 400;
-    font-size: 1.17vw;
+    font-size: 16px;
     color: #718EBF;
 
 }
 
 th button {
-    width: 11.72vw;
-    height: 2.93vw;
-    border-width: 1px;
+    width: 150px;
+    height: 35px;
     border-radius: 50px;
     color: #718EBF;
     border: 1px solid #718EBF;
+    background-color: white;
     font-weight: 500;
-    font-size: 1.042vw;
+    font-size: 15px;
     text-align: center;
 
 
@@ -204,16 +199,13 @@ td:nth-child(1) {
         justify-content: center;
         align-items: center;
         /* width: 100%; */
-        width: 4.39vw;
-        height: 4.39vw;
-        border-radius: 1.46vw;
+        width: 60px;
+        height: 60px;
+        border-radius: 20px;
         background-color: #FFE0EB;
 
 
     }
-
-    /* background-color: black; */
-    /* display: flex; */
 
 }
 
@@ -246,8 +238,150 @@ tr:nth-child(5) td:nth-child(1) {
 
 .sqaure {
     >img {
-        width: 1.95vw;
-        height: 1.95vw;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .container {
+        width: 793px;
+        height: 957px;
+        padding: 30px;
+    }
+
+    .cards {
+        width: 743px;
+        height: 90px;
+
+    }
+
+    .card {
+        width: 231px;
+        height: 90px;
+        border-radius: 20px;
+        gap: 10px;
+
+
+    }
+
+    .circle {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+
+        >img {
+            width: 20px;
+            height: 20px;
+        }
+
+
+    }
+
+    .ad {
+        width: 116px;
+        height: 38px;
+
+        >h6 {
+            font-weight: 600;
+            font-size: 16px;
+
+        }
+
+        >p {
+
+            font-weight: 400;
+            font-size: 12px;
+
+        }
+
+
+    }
+
+
+    table {
+        width: 743px;
+        height: 464px;
+        border-spacing: 0px 20px;
+        border-radius: 20px;
+
+    }
+
+    caption {
+        font-weight: 600;
+        font-size: 18px;
+
+    }
+
+    tr {
+        width: 743px;
+        height: 69px;
+        background-color: white;
+    }
+
+    tr td:first-child,
+    th:first-child {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    tr td:last-child,
+    th:last-child {
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    tr td,
+    tr th {
+        text-align: start;
+        padding: 0px 12px;
+
+
+    }
+
+    td h6,
+    th h6 {
+
+        font-weight: 500;
+        font-size: 13px;
+
+    }
+
+    td p,
+    th p {
+
+        font-weight: 400;
+        font-size: 13px;
+
+    }
+
+    th button {
+        width: 120px;
+        height: 30px;
+        border-radius: 50px;
+        border: 1px solid #718EBF;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+
+    th:nth-child(1),
+    td:nth-child(1) {
+        >.sqaure {
+            width: 45px;
+            height: 45px;
+            border-radius: 15px;
+        }
+
+    }
+
+
+    .sqaure {
+        >img {
+            width: 20px;
+            height: 20px;
+        }
     }
 }
 
@@ -273,9 +407,10 @@ tr:nth-child(5) td:nth-child(1) {
             font-size: 12px;
         }
     }
-    .card .ad{
+
+    .card .ad {
         width: 173px;
-height: 45px;
+        height: 45px;
 
     }
 
@@ -348,7 +483,6 @@ height: 45px;
         text-align: center;
 
     }
-
 
 
 
