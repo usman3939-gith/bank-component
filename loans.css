@@ -9,202 +9,331 @@
     /* font-family: "Lato", sans-serif; */
 }
 
-/* end of .sidebar */
 .container {
-    /* margin-left: 4.41vw; */
-    /* margin: 25px; */
     background-color: #F5F7FA;
-    width: 77.44vw;
-    height: 93.46vw;
+    width: 1190px;
+    height: 923px;
     display: flex;
     flex-direction: column;
+    padding: 50px;
     /* justify-content: center; */
     /* align-items: center; */
 }
-.section1{
-    margin: 2.93vw;
-}
-.cards{
-   width: 72.56vw;
-height: 8.79vw;
 
+.section1 {
+    /* margin: 2.93vw; */
+}
+
+.cards {
+    width: 1110px;
+    height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 20px; */
+    gap: 20px;
 }
-.card{
-width: 16.31vw;
-height: 8.79vw;
-border-radius: 15px;
-background-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 10px;
+
+.card {
+    width: 255px;
+    height: 120px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
 
 }
-.circle{
-    width: 4.39vw;
-height: 4.39vw;
-border-radius: 50%;
-display: flex;
-justify-content: center;
-align-items: center;
->img{
-    width: 1.95vw;
-    height: 1.95vw;
-}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >img {
+        width: 30px;
+        height: 30px;
+    }
 
 
 }
-.card:nth-child(1) .circle{
-background-color: #E7EDFF;
+
+.card:nth-child(1) .circle {
+    background-color: #E7EDFF;
 }
-.card:nth-child(2) .circle{
+
+.card:nth-child(2) .circle {
     background-color: #FFF5D9;
-    
+
 }
-.card:nth-child(3) .circle{
+
+.card:nth-child(3) .circle {
     background-color: #FFE0EB;
-    
+
 }
-.card:nth-child(4) .circle{
+
+.card:nth-child(4) .circle {
     background-color: #DCFAF8;
-    
+
 }
-.ad{
+
+.ad {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
-    width: 7.81vw;
-height: 3.61vw;
->h6{
-font-weight: 400;
-font-size: 0.95vw;
-color: #718EBF;
+    width: 116px;
+    height: 51px;
+
+    >h6 {
+        width: 140px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #718EBF;
+
+    }
+
+    >p {
+
+        font-weight: 600;
+        margin: 0;
+        font-size: 20px;
+        color: #232323;
+    }
 
 }
->p{
-   
-font-weight: 600;
-margin: 0;
-font-size: 1.56vw;
-color: #232323;
+
+.card:nth-child(4) {
+    >.ad {
+        >p {
+            font-size: 18px;
+        }
+    }
 }
 
-}
-.card:nth-child(4){
-    >.ad{
-    >p{
-        font-size: 1.27vw;
-    }}
-}
-.section2{
-    margin-left: 2.93vw;
+.section2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
 }
-p{
-    
-font-weight: 600;
-font-size: 1.76vw;
-margin: 1.95vw 0;
-color: #333B69;
-/* text-align: left; */
+
+p {
+
+    font-weight: 600;
+    font-size: 22px;
+    margin: 1.95vw 0;
+    color: #333B69;
 
 
 }
-table{
-   width: 72.56vw;
-height: 48.83vw;
-border-radius: 15px;
 
-    
+table {
+    width: 1110px;
+    height: 625px;
+    border-radius: 25px;
     border-collapse: collapse;
     background-color: white;
-    padding: 0.98vw;
-   
-    
-}
-/* tr{
-     width: 980px;
-height: 19px;
-} */
-/* caption{
-   
-
-font-weight: 600;
-font-size: 22px;
-text-align: left;
-} */
-td,th{
-   /* width: 980px;
-height: 19px; */
-border-width: 1px;
-border-radius: 50px;
- border-bottom: 1px solid #F2F4F7;
- padding: 10px;
- /* border-width: 1050px; */
- 
-/* display: flex;
-flex-direction: column; */
-
-}
-th{
-   
-font-weight: 500;
-font-size: 1.07vw;
-color: #718EBF;
+    padding: 10px;
 
 
 }
-td{
+
+td,
+th {
+    border-width: 1px;
+    border-radius: 50px;
+    border-bottom: 1px solid #F2F4F7;
+    padding: 10px;
+
+}
+
+th {
+
+    font-weight: 500;
+    font-size: 16px;
+    color: #718EBF;
+
+
+}
+
+td {
     /* background-color: black; */
     text-align: center;
-font-weight: 400;
-font-size: 1.07vw;
-color: #232323;
+    font-weight: 400;
+    font-size: 16px;
+    color: #232323;
 
 }
-tr:nth-child(10) td{
-font-weight: 500;
-font-size: 1.07vw;
-color: #FE5C73;
+
+tr:nth-child(10) td {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FE5C73;
 
 
 }
-td button{
-    width: 7.81vw;
-height: 2.93vw;
-border: 1px solid black;
-border-radius: 50px;
-background-color: white;
-font-size: 1.17vw;
-font-weight: 500;
+
+td button {
+    width: 100px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 500;
 }
-td button:hover{
+
+td button:hover {
     border-color: #1814F3;
     color: #1814F3;
 
 }
-@media screen and (max-width:500px) {
-    
-  
-    .section1 .cards{
-        width: 965px;
-height: 85px;
+
+@media screen and (max-width:1024px) {
+    .container {
+        width: 793px;
+        height: 957px;
+        padding: 30px;
     }
-    .section1 .cards .card{
-        width: 230px;
-height: 85px;
-padding: 0 20px !important;
+
+
+    .cards {
+        width: 743px;
+        height: 90px;
+    }
+
+    .card {
+        width: 167px;
+        height: 90px;
+        border-radius: 20px;
+        gap: 10px;
+
 
     }
+
+    .circle {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+
+        >img {
+            width: 18px;
+            height: 18px;
+        }
+
+
+    }
+
+    .ad {
+        width: 80px;
+        height: 37px;
+
+        >h6 {
+            width: 140px;
+            font-weight: 400;
+            font-size: 11px;
+
+        }
+
+        >p {
+            font-size: 16px;
+        }
+
+    }
+
+    .card:nth-child(4) {
+        >.ad {
+            >p {
+                width: 300px;
+                font-size: 12px;
+            }
+        }
+    }
+
+    p {
+
+        font-weight: 600;
+        font-size: 18px;
+        margin: 20px 0;
+
+
+    }
+
+    table {
+        width: 743px;
+        height: 500px;
+        border-radius: 20px;
+        padding: 10px;
+
+
+    }
+
+    td,
+    th {
+        border-width: 1px;
+        border-radius: 50px;
+        border-bottom: 1px solid #F2F4F7;
+        padding: 10px;
+
+    }
+
+    th {
+
+        font-weight: 500;
+        font-size: 12px;
+
+
+    }
+
+    td {
+        font-weight: 400;
+        font-size: 12px;
+
+    }
+
+    tr:nth-child(10) td {
+        font-weight: 500;
+        font-size: 12px;
+        color: #FE5C73;
+
+
+    }
+
+    td button {
+        width: 80px;
+        height: 30px;
+        border-radius: 50px;
+        border-width: 1px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    td button:hover {
+        border-color: #1814F3;
+        color: #1814F3;
+
+    }
+}
+
+@media screen and (max-width:500px) {
+
+
+    .section1 .cards {
+        width: 965px;
+        height: 85px;
+    }
+
+    .section1 .cards .card {
+        width: 230px;
+        height: 85px;
+        padding: 0 20px !important;
+
+    }
+
     .card .ad p {
         font-weight: 600 !important;
         font-size: 16px !important;
@@ -214,52 +343,59 @@ padding: 0 20px !important;
         font-weight: 400 !important;
         font-size: 12px !important;
     }
-    .section2 p{
-font-weight: 600;
-font-size: 16px;
+
+    .section2 p {
+        font-weight: 600;
+        font-size: 16px;
     }
-    table{
+
+    table {
         width: 325px;
-height: 466px;
-border-width: 1px;
+        height: 466px;
+        border-width: 1px;
 
     }
-      table th,
-  table td {
-    display: none;
-  }
+
+    table th,
+    table td {
+        display: none;
+    }
 
 
-  table th:nth-of-type(2),
-  table td:nth-of-type(2),
-  table th:nth-of-type(3),
-  table td:nth-of-type(3),
-  table th:last-of-type,
-  table td:last-of-type {
-    display: table-cell;
-  }
-  table td, table th{
-font-weight: 400;
-font-size: 12px;
-text-align: left;
+    table th:nth-of-type(2),
+    table td:nth-of-type(2),
+    table th:nth-of-type(3),
+    table td:nth-of-type(3),
+    table th:last-of-type,
+    table td:last-of-type {
+        display: table-cell;
+    }
 
-  }
- table td button {
-    width: 70px;
-height: 25px;
-border-radius: 50px;
-border-width: 1px;
-color: #1814F3;
-border-color: #1814F3;
-font-weight: 500;
-font-size: 12px;
-text-align: center;
-
-
-  }
-    table tr:nth-child(10) td{
+    table td,
+    table th {
         font-weight: 400;
-font-size: 12px !important;
+        font-size: 12px;
+        text-align: left;
+
     }
-    
+
+    table td button {
+        width: 70px;
+        height: 25px;
+        border-radius: 50px;
+        border-width: 1px;
+        color: #1814F3;
+        border-color: #1814F3;
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+
+
+    }
+
+    table tr:nth-child(10) td {
+        font-weight: 400;
+        font-size: 12px !important;
+    }
+
 }
