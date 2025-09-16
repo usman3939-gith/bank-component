@@ -658,6 +658,9 @@ tr:nth-child(3) .square {
 }
 
 @media screen and (max-width:500px) {
+    .container {
+        padding: 20px 15px !important;
+    }
 
 
     .section1 .cards {
