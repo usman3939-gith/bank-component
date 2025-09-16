@@ -15,24 +15,23 @@
     /* margin-left: 4.41vw; */
     /* margin: 25px; */
     background-color: #F5F7FA;
-    width: 77.44vw;
-    height: 93.46vw;
-
+    width: 1190px;
+    height: 923px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    padding: 50px;
 }
 
 .section {
     display: flex;
     flex-direction: column;
-    margin: 2.93vw;
-    padding: 2.93vw;
+    /* margin: 2.93vw; */
+    padding: 30px;
     background-color: #FFFFFF;
-    width: 72.56vw;
-    height: 45.21vw;
-    border-width: 1px;
-    border-radius: 1.46vw;
+    width: 1110px;
+    height: 531px;
+    border-radius: 25px;
+
 }
 
 .slip {
@@ -40,7 +39,7 @@
 
     >span {
         position: relative;
-        margin: 2.93vw;
+        margin: 35px;
         margin-left: 0;
 
         p {
@@ -48,7 +47,7 @@
             color: #718EBF;
             font-family: "Inter", sans-serif;
             font-weight: 500;
-            font-size: 1.17vw;
+            font-size: 16px;
             line-height: 100%;
 
         }
@@ -83,20 +82,20 @@
 }
 
 .section hr {
-    width: 67.68vw;
+    /* color: red; */
+    width: 1050px;
     height: 1px;
-    background-color: #F4F5F7;
-    border: 0px;
+    border: 1px solid #F4F5F7;
 }
 
 .two-factor {
-    margin-top: 2.93vw;
+    margin-top: 35px;
 }
 
 .two-factor p {
     font-family: "Inter", sans-serif;
     font-weight: 500;
-    font-size: 1.37vw;
+    font-size: 17px;
     line-height: 100%;
     color: #333B69;
 
@@ -104,7 +103,7 @@
 }
 
 .enable {
-    margin-top: 2.93vw;
+    margin-top: 35px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -112,20 +111,21 @@
 
 .enable-button {
     position: relative;
-    width: 4.30vw;
-    height: 2.34vw;
-    border-radius: 1.46vw;
+    width: 56px;
+    height: 30.70967674255371px;
+    border-radius: 25px;
+
     background-color: #16DBCC;
 
     >.circle {
         position: absolute;
-        width: 2.07vw;
-        height: 2.06vw;
+        width: 27px;
+        height: 27px;
         background-color: white;
         border-radius: 50%;
         box-shadow: 0px 2px 5px 0px #0000001A;
-        margin-left: 2.1vw;
-        margin-top: 0.11vw;
+        margin-left: 28px;
+        margin-top: 1px;
 
 
     }
@@ -134,7 +134,7 @@
 }
 
 .section .two-factor .pp p {
-    margin-top: 1.5vw;
+    margin-top: 18px;
 }
 
 .current-password,
@@ -142,25 +142,21 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 1.5vw;
-
-    width: 32.62vw;
-    height: 6.15vw;
-
-/*     border: 1px solid #DFEAF2; */
+    margin-top: 18px;
+    width: 510px;
+    height: 80px;
     border-radius: 15px;
+    border: 1px solid #DFEAF2;
 
     >input {
-
-        width: 32.62vw;
-        height: 3.91vw;
-
+        width: 510px;
+        height: 50px;
         border: 1px solid #DFEAF2;
         border-radius: 15px;
         font-family: "Inter", sans-serif;
         font-weight: 400;
-        padding-left: 1.95vw;
-        font-size: 1.46vw;
+        padding-left: 18px;
+        font-size: 15px;
 
 
 
@@ -179,26 +175,175 @@
 }
 
 .button button {
-    width: 12.70vw;
-    height: 3.91vw;
-
-    border-radius: 9px;
-
+    width: 190px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
     background-color: #1814F3;
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: 500;
-    font-size: 1.46vw;
+    font-size: 15px;
     text-align: center;
     /* margin-left: 775px; */
 
 
 }
 
+@media screen and (max-width:1024px) {
+    .container {
+        width: 793px;
+        height: 957px;
+        padding: 30px;
+    }
+
+    .section {
+        padding: 30px;
+        width: 743px;
+        height: 470px;
+        border-radius: 20px;
+    }
+
+    .slip {
+
+        >span {
+            margin: 35px;
+            margin-left: 0;
+
+            p {
+                font-weight: 500;
+                font-size: 12px;
+            }
+        }
+
+
+    }
+
+    .slip span::before {
+        display: block;
+        content: '';
+        background-color: #1814F3;
+        position: absolute;
+        width: 9.18vw;
+        height: 0.29vw;
+
+        margin-top: 3.91vw;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        opacity: 0;
+
+    }
+
+    .slip span:hover:before {
+        opacity: 1;
+
+    }
+
+    .slip span p:hover {
+        cursor: pointer;
+
+    }
+
+    .section hr {
+        /* color: red; */
+        width: 693px;
+        height: 1px;
+        border: 1px solid #F4F5F7;
+    }
+
+    .two-factor {
+        margin-top: 35px;
+    }
+
+    .two-factor p {
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+        color: #333B69;
+
+
+    }
+
+    .enable {
+        margin-top: 35px;
+        gap: 20px;
+    }
+
+    .enable-button {
+        width: 44px;
+        height: 24px;
+        border-radius: 20px;
+
+        >.circle {
+            position: absolute;
+            width: 21.21px;
+            height: 21.1px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 0px 2px 5px 0px #0000001A;
+            margin-left: 22px;
+            margin-top: 1px;
+
+
+        }
+
+
+    }
+
+    .section .two-factor .pp p {
+        margin-top: 18px;
+    }
+
+    .current-password,
+    .new-password {
+        width: 334px;
+        height: 63px;
+        border-radius: 15px;
+
+
+        >input {
+            width: 334px;
+            height: 40px;
+            border-radius: 15px;
+
+            padding-left: 15px;
+            font-size: 12px;
+
+
+
+        }
+
+        >input::placeholder {
+            color: #718EBF;
+        }
+
+
+    }
+
+
+    .button button {
+        width: 130px;
+        height: 40px;
+        border-radius: 9px;
+        font-weight: 500;
+        font-size: 15px;
+        text-align: center;
+        /* margin-left: 775px; */
+
+
+    }
+
+}
+
 @media screen and (max-width: 500px) {
+    .container {
+        padding: 20px 0 !important;
+    }
+
     .section {
         width: 325px;
-        height: 410px;
+        height: 440px;
         border-radius: 15px;
     }
 
@@ -244,9 +389,9 @@
         border-radius: 25px;
 
         >.circle {
-            width: 21.214284896850586px;
-            height: 21.100839614868164px;
-            margin-left: 15px;
+            width: 18.214285px;
+            height: 21.10084px;
+            margin-left: 13px;
             margin-top: 1px;
 
         }
@@ -267,10 +412,9 @@
         height: 40px;
         border-radius: 9px;
         margin: 15px 0;
-font-weight: 500;
-font-size: 15px;
+        font-weight: 500;
+        font-size: 15px;
 
     }
-
 
 }
