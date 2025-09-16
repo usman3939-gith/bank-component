@@ -604,8 +604,8 @@
                 }
 
                 >.number {
-                    width: 231px !important;
-                    height: 51px !important;
+                    width: 231px;
+                    height: 51px;
                     border-bottom-right-radius: 20px;
                     border-bottom-left-radius: 20px;
                     margin-left: -20px;
